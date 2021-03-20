@@ -42,13 +42,13 @@ let package = Package(
                 .linkedFramework("CoreImage"),
             ]
         ),
-        .binaryTarget(name: "avcodec", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avcodec.xcframework.zip?raw=true", checksum: "8ce3195a7d5707a9cd458a7c8d8eb6841c5cba14c05c7b01e17637de8d781428"),
-        .binaryTarget(name: "avutil", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avutil.xcframework.zip?raw=true", checksum: "a0f84a1a9414e7f2bb41719a108b039387da7bb0c6fa07febc232f3e1012ed71"),
-        .binaryTarget(name: "avformat", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avformat.xcframework.zip?raw=true", checksum: "9550d4b9f90fa36989b6b504daeb78662f3aead7803a8ba91ceab1f10c8f2f67"),
-        .binaryTarget(name: "avfilter", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avfilter.xcframework.zip?raw=true", checksum: "46e4312759dbc3cf636462cb9848a59ade0f4ce7cebd95019863e59f3b820ca8"),
-        .binaryTarget(name: "avdevice", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avdevice.xcframework.zip?raw=true", checksum: "372de39610dc32afd170e35373446b34d3939a634ac2818ff1372f7d6fec19ed"),
-        .binaryTarget(name: "swscale", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/swscale.xcframework.zip?raw=true", checksum: "ff2f7749eed0bb092877f9edc62701c30a29da1eb8b9122549b2ccab18b06f28"),
-        .binaryTarget(name: "swresample", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/swresample.xcframework.zip?raw=true", checksum: "1918289b27469a407b02cc86913ad2950b794b85e6f1332749a2d7817f2a3e62"),
+        .binaryTarget(name: "avcodec", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avcodec.xcframework.zip?raw=true", checksum: "52d3420b9a9d9cade5f003a76a0d9ae689124b14defc2973f80ac80c8e3c0225"),
+        .binaryTarget(name: "avutil", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avutil.xcframework.zip?raw=true", checksum: "6046e340ce6e6b9b81407af08a5e2ac1583867c4ac57ba9de5d6663e8115c7d7"),
+        .binaryTarget(name: "avformat", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avformat.xcframework.zip?raw=true", checksum: "14620fd17738270d76b6209286ab053a3fdeaa11d7a59301e89b0db8983e71d7"),
+        .binaryTarget(name: "avfilter", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avfilter.xcframework.zip?raw=true", checksum: "b3ae30eaeb987d80a7694b02d923c52d86b30f4e6b62d230f7ea442d112dfc4e"),
+        .binaryTarget(name: "avdevice", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avdevice.xcframework.zip?raw=true", checksum: "df2dfd2fbbd0316fce428eba6311521772b810293a5bca8b67c56353fc4a18a8"),
+        .binaryTarget(name: "swscale", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/swscale.xcframework.zip?raw=true", checksum: "b129547c15c1f584b093e6d26cb173ad4d259ef1be42f0eb9860d4b4ce629460"),
+        .binaryTarget(name: "swresample", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/swresample.xcframework.zip?raw=true", checksum: "54425a20156c48ebc9d86e89c55e3f2ece1a23a377079ac88ad99f5691795228"),
         .target(
             name: "SwiftFFmpegExamples",
             dependencies: ["SwiftFFmpeg"]
