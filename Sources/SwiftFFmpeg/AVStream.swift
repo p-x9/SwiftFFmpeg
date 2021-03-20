@@ -108,6 +108,7 @@ public final class AVStream {
   ///
   ///- encoding: unused
   ///- decoding: Set by libavformat to calculate sample_aspect_ratio internally
+  @available(macOS 10.10,*)
   public var displayAspectRatio: AVRational {
     cStream.display_aspect_ratio
   }
