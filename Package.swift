@@ -40,6 +40,7 @@ let package = Package(
                 .linkedFramework("AudioToolbox"),
                 .linkedFramework("VideoToolbox"),
                 .linkedFramework("CoreImage"),
+                .linkedFramework("AVFoundation"),
             ]
         ),
         .binaryTarget(name: "avcodec", url: "https://github.com/p-x9/SwiftFFmpeg/blob/master_px/xcframework/avcodec.xcframework.zip?raw=true", checksum: "52d3420b9a9d9cade5f003a76a0d9ae689124b14defc2973f80ac80c8e3c0225"),
